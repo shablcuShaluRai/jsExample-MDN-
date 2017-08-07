@@ -13,3 +13,11 @@
 // 2. creating an array using new keyword.
  var cars = new Array("Sab","volvo","BMW");
   console.log(cars);
+
+// In JavaScript, arrays use numbered indexes.
+// In JavaScript, objects use named indexes.
+var person = [];
+person["firstName"] = "Shalu";
+person["lastName"] = "Rai";
+person["age"] = 20;
+console.log(person["firstName"]);
