@@ -10,3 +10,9 @@ console.log(a); // returns [2,3]
 // when an empty array then it returns undefined
 var b =[];
 console.log(b.shift());
+
+
+// remove an element of an array
+var fruits = ['mango','apple','orange','banana'];
+console.log(fruits.shift());
+console.log(fruits);
