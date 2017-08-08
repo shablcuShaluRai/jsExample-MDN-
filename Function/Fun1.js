@@ -1,4 +1,12 @@
 
+
+function greetThePlanet(){
+  return "hello world";
+}
+console.log(greetThePlanet());
+
+
+
 // a function is a block of code designed to perform a task.
 // it takes a number of arguments.
 // A function executes when something executes.
