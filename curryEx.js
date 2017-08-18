@@ -27,7 +27,7 @@ var greetCurried = function(greeting){
 greetCurried("hi there")('anyone');
 
 
-//
+// if function has n argument then we have to create n function in curry,and we have return n-1 function
 
 function iceCreamOrder(name) {
     return function flavorPicker (flavor) {

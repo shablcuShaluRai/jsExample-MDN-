@@ -12,4 +12,14 @@
 
  }
 
-console.log(person.name + " "+ person.age);
+console.log(person.firstName + " "+ person.age);
+
+// Since functions are variables, we can add them to objects.
+
+const obj = {
+  message:" they can be added to object like variable",
+   log(message){
+     console.log(message);
+   }
+}
+obj.log(obj.message);
