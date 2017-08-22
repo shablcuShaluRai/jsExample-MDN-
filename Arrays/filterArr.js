@@ -38,3 +38,9 @@ function isnumber(value){
 var num = [12,10,8,7,202,108];
 var number = num.filter(isnumber);
 console.log(number);
+
+
+const school = ['kiet','abes','Akg','kanji']
+
+const w3schools = school.filter(schools => schools[0]=== 'k')
+console.log(w3schools);
